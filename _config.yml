@@ -18,14 +18,14 @@ email: opendistro-blog@amazon.com
 description: >- # this means to ignore newlines until "baseurl:"
   Open Distro for Elasticsearch is an Apache 2.0-licensed distribution of Elasticsearch
    enhanced with enterprise security, alerting, SQL, and more.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/odblog" # the subpath of your site, e.g. /blog
+url: "https://as-ossuser.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alolita
 github_username:  as-ossuser
 
 # Build settings
 markdown: kramdown
-theme: minima 
+theme: minima
 plugins:
   - jekyll-feed
 
